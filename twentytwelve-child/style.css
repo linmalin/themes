@@ -1,0 +1,17 @@
+
+/*
+Theme Name: The Name of your theme
+Theme URI: http://www.linnymalin.com/
+Description: Our child theme developed in class for web 3 of EMD
+Author: Linny Malin
+Author URI: http://www.linnymalin.com
+Template: twentytwelve
+Version: 0.1
+*/
+
+@import url("../twentytwelve/style.css");
+
+.site-title a{
+	color:red !important;
+
+}

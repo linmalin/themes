@@ -1,0 +1,20 @@
+/*Theme Name: basic starter child
+Theme URI: http://www.linnymalin.com/
+Description: Our child theme developed in class for web 3 of EMD
+Author: Linny Malin
+Author URI: http://www.linnymalin.com
+Template: basic_starter
+Version: 0.1*/
+
+@import url("../basic_starter/style.css");
+
+
+#content { 
+	float:right;
+	}
+	#sidebar{
+		float:none;
+	}
+}
+
+
