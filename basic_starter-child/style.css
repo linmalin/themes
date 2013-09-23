@@ -8,32 +8,68 @@ Version: 0.1*/
 
 @import url("../basic_starter/style.css");
 
-#branding{
-	background: url("img/logo.png") top no-repeat;
-	float:left;
-	height:140px;
-	width:960px;
-	margin-left:-300px;
-	margin-top:40px;
-
-}
 #content { 
 	float:right;
+}
+
+#body{
+	font-family: verdana, sans-serif;
+	line-height: 200%;
+	background-color: #d0c9d1;
+}
+#wrap {
+	border:1px solid #000;
+
+}
+#logo a {
+	display: block;
+	float: left;
+	height: 120px;
+	margin: 20px 0 0 20px;
+	outline: 0;
+	text-indent: -9999em;
+	width: 220px;
+}
+/*BRANDING*/
+#branding{
+	background:url(img/logo.png) no-repeat scroll 20px 40px transparent;
+	border-bottom: 10px solid #48244c;
+	height:100px;
+	width: 900px;
+	margin:0 30px;
+	background-color: #fff;
+
+
+	/*overflow: scroll;
+	padding:20px 40px;
+	/*scroll 20px 40px transparent;*/
+	/*background-repeat: no-repeat;
+	position:absolute;*/
+	
 	}
 
-#sidebar{
-	float:none;
-	margin-left: 50px;
-	margin-right: 140px;
-	}
-#main{
-	border-top-width: 600px;
-	border-top: 4px solid #48244c;
-	margin-top:-70px;
+h1{
+	font-weight:lighter;
+	color:#48244c 
+
 }
+
+/*MAIN*/
+#main{
+	background-color: #f5f4f5;
+	box-shadow: 0 6px 5px -5px #333333 inset;
+	
+}
+#main h2{
+	font-family: Georgia, serif;
+}
+/*TOP NAV*/
 #top-nav{
+	text-transform:uppercase;
+	color:#48244c;
 	margin-top:-40px;
-	color:48244c;
+	margin-left: -30px;	
+	background-color: #fff;
 }
 #top-nav ul li a:hover, 
 #top-nav ul li.current_page_item a,
@@ -43,30 +79,56 @@ Version: 0.1*/
 #top-nav ul li.current-menu-item a,
 #top-nav ul li.current-menu-parent a {
 	background: #fff;
-	color: #000;
+	color: #48244c;
 }
-#top-nav ul ul a:hover{
-	background-color:#fff;
-		}
-#branding{
-	background-color: #fff;
-	}
+
+
 #top-nav{
+	font-color: #48244c;
 	background-color:#fff;
 	position:absolute;
 	top:100px;
 	left:350px;
 	width:600px;
 }
+
+/*SIDEBAR*/
 #sidebar{
-	background-color: #fff;
+	background-color:#f5f4f5;
+	width:280px;
 }
 #sidebar h4{
+	font-family: verdana, sans-serif;
+	font-weight: lighter;
 	text-decoration: none;
+	border-bottom: none;
+	background:#99619f;
+	color:#fff;
+	padding:10px;
 	
 }
 #sidebar li{
-	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+#sidebar{
+	float:none;
+	margin-left: 0px;
+	margin-right: 140px;
+}
+/*p. post-date{
+	padding-bottom: none;
+	font-style: italic;
+}
+.post-line{
+	line-height: 1px #efefef;
+}*/
+
+/*footer*/
+footer{
+	
+}
+h1 h2 a{
+	margin: none;
 }
 
 
