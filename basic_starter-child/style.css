@@ -8,27 +8,61 @@ Version: 0.1*/
 
 @import url("../basic_starter/style.css");
 
+#branding{
+	background: url("img/logo.png") top no-repeat;
+	float:left;
+	height:140px;
+	width:960px;
+	margin-left:-300px;
+	margin-top:40px;
 
+}
 #content { 
 	float:right;
 	}
+
 #sidebar{
-		float:none;
+	float:none;
+	margin-left: 50px;
+	margin-right: 140px;
 	}
-	#branding{
-		background-color: #fff;
+#main{
+	border-top-width: 600px;
+	border-top: 4px solid #48244c;
+	margin-top:-70px;
+}
+#top-nav{
+	margin-top:-40px;
+	color:48244c;
+}
+#top-nav ul li a:hover, 
+#top-nav ul li.current_page_item a,
+#top-nav ul li.current_page_parent a,
+#top-nav ul li.current_page_ancestor a,
+#top-nav ul li.current-menu-ancestor a, 
+#top-nav ul li.current-menu-item a,
+#top-nav ul li.current-menu-parent a {
+	background: #fff;
+	color: #000;
+}
+#top-nav ul ul a:hover{
+	background-color:#fff;
+		}
+#branding{
+	background-color: #fff;
 	}
 #top-nav{
 	background-color:#fff;
-		position:absolute;
-		top:100px;
-		left:350px;
-		width:600px;
+	position:absolute;
+	top:100px;
+	left:350px;
+	width:600px;
 }
 #sidebar{
 	background-color: #fff;
 }
 #sidebar h4{
+	text-decoration: none;
 	
 }
 #sidebar li{
