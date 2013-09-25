@@ -158,6 +158,7 @@ body {
 -----------------------------------------------------------*/
 #branding {
 	background: url(images/header.gif) 50% top no-repeat;
+	color:#fff;
 	float: left;
 	height: 180px;
 	width: 960px;	
@@ -259,6 +260,7 @@ body {
 	float: left;
 	padding: 10px;
 	width: 940px;
+	border: 1px solid #000;
 }
 #content {
 	float: left;

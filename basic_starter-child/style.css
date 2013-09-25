@@ -4,22 +4,41 @@ Description: Our child theme developed in class for web 3 of EMD
 Author: Linny Malin
 Author URI: http://www.linnymalin.com
 Template: basic_starter
-Version: 0.1*/
+Version: 0.*/
 
 @import url("../basic_starter/style.css");
-
-#content { 
-	float:right;
+#wrap{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: 960px;
+	
 }
 
 #body{
 	font-family: verdana, sans-serif;
-	line-height: 200%;
 	background-color: #d0c9d1;
+	position:relative;
 }
-#wrap {
-	border:1px solid #000;
 
+
+p{
+	line-height: 200%;
+}
+
+#content { 
+	float:right;
+}
+/*BRANDING*/
+#branding{
+	background:url(img/logo.png) no-repeat scroll 20px 40px transparent;
+	border-bottom: 10px solid #48244c;
+	height:100px;
+	width: 100%;
+	max-width: 960px;
+	margin-right:30px;
+	margin:0;
+	background-color: #fff;
 }
 #logo a {
 	display: block;
@@ -30,34 +49,16 @@ Version: 0.1*/
 	text-indent: -9999em;
 	width: 220px;
 }
-/*BRANDING*/
-#branding{
-	background:url(img/logo.png) no-repeat scroll 20px 40px transparent;
-	border-bottom: 10px solid #48244c;
-	height:100px;
-	width: 900px;
-	margin:0 30px;
-	background-color: #fff;
-
-
-	/*overflow: scroll;
-	padding:20px 40px;
-	/*scroll 20px 40px transparent;*/
-	/*background-repeat: no-repeat;
-	position:absolute;*/
-	
-	}
-
 h1{
 	font-weight:lighter;
 	color:#48244c 
 
-}
-
+}	
 /*MAIN*/
 #main{
 	background-color: #f5f4f5;
 	box-shadow: 0 6px 5px -5px #333333 inset;
+	/*box-shadow: 6px 6px -5px #333333 inset;*/
 	
 }
 #main h2{
@@ -69,7 +70,12 @@ h1{
 	color:#48244c;
 	margin-top:-40px;
 	margin-left: -30px;	
-	background-color: #fff;
+	font-color: #48244c;
+	background-color:#fff;
+	position:absolute;
+	top:100px;
+	left:350px;
+	width:600px;
 }
 #top-nav ul li a:hover, 
 #top-nav ul li.current_page_item a,
@@ -81,17 +87,6 @@ h1{
 	background: #fff;
 	color: #48244c;
 }
-
-
-#top-nav{
-	font-color: #48244c;
-	background-color:#fff;
-	position:absolute;
-	top:100px;
-	left:350px;
-	width:600px;
-}
-
 /*SIDEBAR*/
 #sidebar{
 	background-color:#f5f4f5;
@@ -108,28 +103,27 @@ h1{
 	
 }
 #sidebar li{
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #b8b8b8;
 }
 #sidebar{
 	float:none;
 	margin-left: 0px;
 	margin-right: 140px;
 }
-/*p. post-date{
-	padding-bottom: none;
-	font-style: italic;
-}
-.post-line{
-	line-height: 1px #efefef;
-}*/
 
-/*footer*/
-footer{
-	
-}
-h1 h2 a{
-	margin: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
