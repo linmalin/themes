@@ -21,6 +21,17 @@ p{
 #content { 
 	float:right;
 }
+
+.page-id-9 #left-quote{
+	float:none;
+	margin-left: 0px;
+	margin-right: 140px;
+	width:280px;
+	background:url(img/quote.png) no-repeat;
+}
+
+/*.page-id-7 #sidebar{background:#fb5036};*/
+
 #logo a {
 	display: block;
 	float: left;
@@ -39,10 +50,17 @@ p{
 	width: 900px;
 	margin:0 30px;
 }
-h1{
+h1, h2 a{
+	font:30px Georgia, Times, serif;
+	text-decoration: none;
 	font-weight:lighter;
 	color:#48244c;
 }
+h3 {
+	font:verdana, sans-serif;
+}
+
+
 /*MAIN*/
 #main{
 	background-color: #f5f4f5;
@@ -89,6 +107,22 @@ h1{
 #sidebar li{
 	border-bottom: 1px solid #d8d8d8;
 }
+/* POSTS*/
+img.wp-post-image{
+	float:left;
+	margin:0 15px 15px 0;
+	border:1px solid #000;
+}
+
+.entrymeta{
+	border-top: .5px solid #99619f
+
+}
+.entrymeta p, a{
+	text-decoration: none;
+	color:#99619f;
+}
+
 footer {
 	border-top: none;
 	background-color: #f5f4f5;
