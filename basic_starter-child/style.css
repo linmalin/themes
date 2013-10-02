@@ -22,12 +22,20 @@ p{
 	float:right;
 }
 
-.page-id-9 #left-quote{
+/*SIDEQUOTE*/
+.sidequote{
+	background:url(img/quote.png) no-repeat;
 	float:none;
+	font-style: italic;
 	margin-left: 0px;
 	margin-right: 140px;
 	width:280px;
-	background:url(img/quote.png) no-repeat;
+	color:#99619f;
+	padding-left: 40px;
+	padding-top: 60px;
+	font:verdana, sans-serif, lighter;
+
+	
 }
 
 /*.page-id-7 #sidebar{background:#fb5036};*/
@@ -49,6 +57,7 @@ p{
 	height:100px;
 	width: 900px;
 	margin:0 30px;
+
 }
 h1, h2 a{
 	font:30px Georgia, Times, serif;

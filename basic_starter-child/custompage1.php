@@ -17,12 +17,23 @@ get_header(); ?>
 			<?php the_content(); ?>
 			
 		</article>
-		
+	
 		<?php endwhile; endif; ?>
 		
 	</section><!-- #content -->
+		<div class="sidequote">
+		<?php
+				$meta_quote = get_post_meta( $post->ID, 'quotation', true );
+				if ($meta_quote) {
+					echo "<p><strong>".$meta_quote."</strong></p></p>";
+				} else {
+					echo "<p> No quote found.</p>";
+				}
 
-<?php get_sidebar(); ?>
+				?>
+		</div>
+
+<?php //get_sidequote(); ?>
 
 </div><!-- #main -->
 

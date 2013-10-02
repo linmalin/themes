@@ -17,18 +17,17 @@ get_header(); ?>
 			
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			<p class="post-date"><?php ?></p>
-			<?php the_date('Y-m-d', '<h3>', '</h3>', true);?>	
+			<?php the_date('F-d-Y', '<h3>', '</h3>', true);?>	
 			<?php the_post_thumbnail('thumbnail'); ?>		
 			<?php the_content( __( 'Read more', 'blm_basic' ) ); ?>
-			
 
 			<?php
-				$meta_quote = get_post_meta( $post->ID, "quotation", true );
-				if ($meta_quote) {
-					echo "<p>Quote: <strong>".$meta_quote."</strong></p>";
-				} else {
-					echo "<p> No quote found.</p>";
-				}
+				//$meta_quote = get_post_meta( $post->ID, "quotation", true );
+				//if ($meta_quote) {
+					//echo "<p>Quote: <strong>".$meta_quote."</strong></p>";
+				//} else {
+					//echo "<p> No quote found.</p>";
+				//}
 
 				?>
 
